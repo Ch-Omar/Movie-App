@@ -36,18 +36,8 @@ class MovieApp extends Component {
       minRating:1,
       movies:moviesToDisplay,
       titleFilter:''
+      }
     }
-    setTimeout(
-      () => {
-        this.addNewMovie({
-          id: 'newmovie',
-          title: 'The New Movie',
-          rating: 4,
-          year: 2018
-        })
-      },
-      5000)
-  }
 
   addNewMovie (newMovie) {
     this.setState({
