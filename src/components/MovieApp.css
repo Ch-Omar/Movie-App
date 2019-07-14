@@ -1,7 +1,8 @@
 .movie-app {
-    max-width: 1200px;
+    max-width: 800px;
     margin: 0 auto;
     font-family: sans-serif;
+    margin-top: 30px
   }
   .movie-app-header {
     display: flex;
